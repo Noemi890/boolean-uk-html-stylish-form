@@ -5,9 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Full Stack Portfolio</title>
+    <title>Stylish Form</title>
   </head>
   <body>
 
+    <main>
+
+      <section class="form">
+
+        <form action="./thankyou.html">
+
+          <div>
+            <h1>
+              Say Hello!
+            </h1>
+          </div>
+
+          <div>
+            <label for="name"> Your name </label>
+            <input type="name" id="name" class="input" placeholder="Enter your name" minlength="5" maxlength="10" required>
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input" placeholder="Enter your email adress" required>
+          </div>
+
+          <div>
+            <label for="needed_services">Needed Services</label>
+            <select class="option" name="services" id="needed_services" required>
+              <option value="choose_services">Choose Services</option>
+              <option value="car">Car Rental</option>
+              <option value="car">Flat Rental</option>
+              <option value="car">Villa Rental</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="budget">Budget</label>
+            <select class="option" name="budget" id="budget" required>
+              <option value="select">Select Budget</option>
+              <option value="20/25">20.000 / 25.000</option>
+              <option value="30_and_up">30.000 / 40.000</option>
+              <option value="30_and_up">40.000 and up</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="7" placeholder="Leave your message here.."></textarea>
+          </div>
+
+          <button class="submit">Submit</button>
+
+        </form>
+
+      </section>
+
+    </main>
   </body>
 </html>
