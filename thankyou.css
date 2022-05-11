@@ -25,6 +25,11 @@ section {
     margin-top: 10rem;
 }
 
+section h1 {
+    text-align: center;
+}
+
 section p {
     margin-top: 3rem;
+    text-align: center;
 }
